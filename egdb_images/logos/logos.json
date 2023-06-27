@@ -1,0 +1,17 @@
+{
+  "logos":
+    [
+      { "image":"eracaps_logo.png",
+        "link":"http://www.eracaps.org/",
+        "height":"80"
+      },
+      { "image":"seedadapt_logo.png",
+        "link":"https://pure.royalholloway.ac.uk/en/projects/era-caps-seedadapt-dimorphic-fruits-seeds-and-seedlings-as-adapta",
+        "height":"80"
+      },
+      { "image":"plantcode_logo.png",
+        "link":"http://plantco.de/",
+        "height":"40"
+      }
+    ]
+}
