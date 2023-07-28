@@ -14,9 +14,9 @@ $lab_path = "$root_path/$egdb_files_folder/egdb_labs";
 $annotation_links_path = "$root_path/$egdb_files_folder/annotations";
 
 // header
-$dbTitle = "";
+$dbTitle = "Ae. arabicum Xpr";
 $header_img = "cover1.png";
-$db_logo = "";
+$db_logo = "aetar_logo.png";
 
 // Toolbar
 $tb_about = 0;
@@ -35,8 +35,8 @@ $tb_more = 0;
 $tb_custom = 1;
 
 // Expression Atlas
-$expr_cards = 0;
-$expr_menu = 0;
+$expr_cards = 1;
+$expr_menu = 1;
 $expr_cartoons = 0;
 $comparator_lookup = 1;
 
