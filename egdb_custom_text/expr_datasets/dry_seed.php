@@ -12,7 +12,7 @@
 <p>
   Open indehiscent fruit of <i>Ae. arabicum</i> with a Non mucilaginous seed (left). Open dehiscent fruit with dry mucilaginous seeds (right).
 </p>
-<p>
+<p style="text-align: justify;">
   <i>Aethionema arabicum</i> accession 0000309 (collected from Turkey and obtained from Kew’s Millennium Seed Bank, UK) and ES1020 (collected from Turkey and obtained from Eric Schranz, Wageningen) plants were grown on soil under long-day conditions (16 h light/20°C and 8 h dark/18°C). Freshly matured seeds from dehiscent (harboring M+ seeds) and indehiscent (harboring NM seeds) fruits derived from several plants were harvested. Two replicates of 20 mg fresh dry M+ and NM seeds, resulting in four samples in total, were sequenced using a HiSeq-2000 sequencer (Illumina) generating 100 bp single-end reads, which were processed, analyzed and normalized to RPKM.
 </p>
 
