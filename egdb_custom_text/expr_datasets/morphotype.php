@@ -1,56 +1,31 @@
 <p>
-  RNA-seq of <i>Aethionema arabicum</i> seeds. There are two seed types: larger non mucilaginous seeds (NM or M-) from indehiscent fruits (IND) and smaller mucilaginous seeds (M or M+) from dehiscent fruits (DEH).
+  RNA-seq of <i>Aethionema arabicum</i> diaspores imbibed at a range of temperatures. 
 </p>
-<h4>Experimental Conditions (3 replicates):</h4>
-<ul>
-  <li>A_T20pDRY</li>
-  <li>A_T20mDRY</li>
-  <li>A_T25pDRY</li>
-  <li>A_T25mDRY</li>
-  <li>Z_T20p9C5h</li>
-  <li>C_T20p9C24h</li>
-  <li>C_T20p9C50h</li>
-  <li>C_T20p14C24h</li>
-  <li>C_T20p20C24h</li>
-  <li>C_T20p20C50h</li>
-  <li>C_T20p24C24h</li>
-  <li>C_T20m9C24h</li>
-  <li>C_T20m9C75h</li>
-  <li>C_T20m14C24h</li>
-  <li>C_T20m14C38h</li>
-  <li>C_T20m20C24h</li>
-  <li>C_T20m20C75h</li>
-  <li>C_T20m24C24h</li>
-  <li>C_T20i9C24h</li>
-  <li>C_T20i9C75h</li>
-  <li>C_T20i9C125h</li>
-  <li>C_T20i14C24h</li>
-  <li>C_T20i14C75h</li>
-  <li>C_T20i14C100h</li>
-  <li>C_T20i20C24h</li>
-  <li>C_T20i20C75h</li>
-  <li>C_T20i24C24h</li>
-  <li>C_T25p9C24h</li>
-  <li>C_T25p9C35h</li>
-  <li>C_T25p14C24h</li>
-  <li>C_T25p20C24h</li>
-  <li>C_T25p24C24h</li>
-  <li>C_T25m9C24h</li>
-  <li>C_T25m9C50h</li>
-  <li>C_T25m14C24h</li>
-  <li>C_T25m20C24h</li>
-  <li>C_T25m20C100h</li>
-  <li>C_T25m24C24h</li>
-  <li>C_T25i9C24h</li>
-  <li>C_T25i9C75h</li>
-  <li>C_T25i14C24h</li>
-  <li>C_T25i14C75h</li>
-  <li>C_T25i20C24h</li>
-  <li>C_T25i20C100h</li>
-  <li>C_T25i24C24h</li>
-</ul>
 
-<p>Sample nomenclature stars wit C, A or Z (), followed by the maternal temperature (T20 or T25), seed/fruit morph (p from M and m for NM, or IND for indehiscent fruits), germination temperature (9, 14, 20, 24), and collected time point (24, 35, 38, 50, 75, 100, or 125 hours).
+<img class='rounded' src='<?php echo "$images_path/morphotype_desc.png";?>' style="max-width:900px">
+
+<p>
+Diaspores included the natural M+ seed and IND fruit diaspores and bare M- seed (artificially created through pericarp removal) (A). M+ seed and IND fruit diaspores have contrasting germination at different temperatures with IND fruit germination restricted to lower temperatures than M+ seed diaspores. Pericarp removal (M-) permits germination at higher temperatures. Increased temperature during reproductive growth of the parent plant also influences germination temperature response, allowing for higher percentage of germination on IND fruits. Seeds and fruits were sampled dry and during imbibition at timepoints allowing comparison of physiological germination stage (time of 1% germination, T1%) and physical timepoints (e.g. 24 hours) (C). 3 replicates of each treatment were performed.
+</p>
+
+<p>
+  Experimental naming scheme for Aethionema arabicum RNAseq and hormone samples. The names encode the following information as: [Genotype][Maternal temperature][Morph][Imbibition temperature][Imbibition duration]-[Replicate number]
+</p>
+
+  <table class="table" style="max-width:900px">
+
+<tr><th>Argument</th><th>Options</th><th>Description</th></tr>
+<tr><td>[Genotype]</td><td>T</td><td>TUR (Turkey)</td></tr>
+<tr><td>[Maternal temperature]</td><td>20, 25</td><td>Plants grown at 20ºC or 25ºC</td></tr>
+<tr><td>[Morph]</td><td>p, m, i</td><td>M+ seeds, M- seeds, IND fruits</td></tr>
+<tr><td>[Imbibition temperature]</td><td>xT, DRY</td><td>x = Integer, dry seeds</td></tr>
+<tr><td>[Imbibition time]</td><td>yh</td><td>y = Integer, blank for dry seeds</td></tr>
+<tr><td>[Replicate number]</td><td>1,2,3,4</td><td>biological replicate</td></tr>
+  </table>
+
+
+
+<p>For example, 'T20p9C24h-1' refers to M+ seeds from TUR ecotype plants grown at 20ºC, imbibed at 9ºC for 24 hours, replicate number 1. 'T25mDRY-2' would refer M- seeds from TUR plants grown at 25ºC, and dry, no imbibition temperature or time.
 </p>
 
 <!-- <img class='rounded' src='<?php //echo "$images_path/expr/nm_seed_fruit.png";?>' width="200px" alt='non mucilaginous dry seeds'>
@@ -64,7 +39,5 @@
  -->
 
 <p>
-  <!-- This dataset was published by <a href="https://doi.org/10.1186/s12864-019-5452-4" target="_blank">Wilhelmsson et al. 2019 </a>
-  and  -->
-  Raw data can be found in the BioProject <a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA639669" target="_blank">PRJNA639669</a>.
+  Raw data can be found in the BioProject <a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA639669" target="_blank">PRJNA639669</a> and <a href="https://www.ncbi.nlm.nih.gov/sra/PRJNA611900" target="_blank">PRJNA611900</a>.
 </p>
