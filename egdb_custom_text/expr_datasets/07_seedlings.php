@@ -7,7 +7,7 @@
   
   <img class='rounded' src='<?php echo "$images_path/seedling_desc.png";?>' style="max-width:900px">
   
-  <table class="table" style="max-width:900px">
+  <!-- <table class="table" style="max-width:900px">
     <tr><th>Sample_ID</th><th>Tissue type</th><th>Morphotype</th><th>Physiological time</th></tr>
     <tr><td>D_T20pSseed9C52h</td><td>seed</td><td>M+</td><td>t1%</td></tr>
     <tr><td>D_T20mSseed9C53h</td><td>seed</td><td>M-</td><td>t1%</td></tr>
@@ -27,7 +27,7 @@
     <tr><td>D_T20pSshoot30C240h</td><td>shoot</td><td>M+</td><td>240 HAT</td></tr>
     <tr><td>D_T20mSshoot30C240h</td><td>shoot</td><td>M-</td><td>240 HAT</td></tr>
     <tr><td>D_T20iSshoot30C240h</td><td>shoot</td><td>IND</td><td>240 HAT</td></tr>
-  </table>
+  </table> -->
 </div>
 
 
