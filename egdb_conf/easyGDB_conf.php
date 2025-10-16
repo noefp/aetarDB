@@ -2,6 +2,7 @@
 // File paths
 $root_path = "/var/www/html"; //use absolute path
 $egdb_files_folder = "aetarDB";
+
 $easy_gdb_path = "$root_path/easy_gdb";
 $blast_dbs_path = "$root_path/blast_dbs";
 $expression_path = "$root_path/expression_data/aetarDB";
@@ -12,6 +13,7 @@ $custom_text_path = "$root_path/$egdb_files_folder/egdb_custom_text";
 $species_path = "$root_path/$egdb_files_folder/egdb_species";
 $lab_path = "$root_path/$egdb_files_folder/egdb_labs";
 $annotation_links_path = "$root_path/$egdb_files_folder/annotations";
+$json_files_path = "$root_path/$egdb_files_folder/json_files";
 
 // header
 $dbTitle = "Ae. arabicum DB";
@@ -40,10 +42,22 @@ $tb_passport = 0;
 
 
 // Expression Atlas
-$expr_cards = 1;
+//$expr_cards = 1;
 $expr_menu = 1;
-$expr_cartoons = 0;
+//$expr_cartoons = 0;
 $comparator_lookup = 1;
+
+// Expression tools order: 0 for not shown, >=1 to setup the order
+$positions=[  
+  'description' => 1,
+  'cartoons' => 0,
+  'lines' => 3,
+  'cards' => 4,
+  'heatmap' => 5,
+  'replicates' => 6,
+  'table' => 7
+];
+
 
 // About
 $ab_citation = 1;

@@ -1,0 +1,88 @@
+{
+  "01 Dry seed.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"dry_seed.php",
+      "images":
+        {
+          "NM":"nm_seed.png",
+          "M":"m_seed.png"
+        }
+    },
+  "02 Fruit development.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"fruit_dev.php",
+      "images":
+        {
+          "buds cut":"flower_bud.png",
+          "buds uncut":"flower_bud.png",
+          "flowers cut":"flower_anthesis.png",
+          "flowers uncut":"flower_anthesis.png",
+          "fruits cut":"fruit_cut.png",
+          "fruits uncut":"fruit_uncut.png"
+        }
+    },
+  "03 Morphotype.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"morphotype.php"
+    },
+  "04 Dark and light exposure of CYP and TUR seeds.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"04_tur_cyp_dark_light.php",
+      "images":
+        {
+          "TUR Dark":"1d_dark_tur.png",
+          "TUR Light":"1d_light_tur.png",
+          "CYP Dark":"1d_dark_cyp.png",
+          "CYP Light":"1d_light_cyp.png"
+        }
+    },
+  "05 Dormant seeds light exposure.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"05_dormant_seeds.php",
+      "images":
+        {
+          "Light 1d":"wt_1dL.png",
+          "Light 7d":"wt_7dL.png",
+          "Light 7dL7dD":"wt_7dL7dD.png",
+          "Light 14d":"wt_14dL.png"
+        }
+    },
+  "06 rgl2 mutant seeds light exposure.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"06_rgl2_mutant.php",
+      "images":
+        {
+          "1d WT":"06_wt_1dL.png",
+          "7d WT":"06_wt_7dL.png",
+          "1d rgl2":"rgl2_1dL.png",
+          "7d rgl2":"rgl2_7dL.png"
+        }
+      
+    },
+  "07 Germinating seeds to seedlings.txt":
+    {"link":"https://plantcode.cup.uni-freiburg.de/aetar_db/gene.php?name=query_id",
+      "description":"07_seedlings.php",
+      "images":
+        {
+          "D_T20pSseed9C52h":"MpT1.png",
+          "D_T20mSseed9C53h":"MmT1.png",
+          "D_T20iSseed9C100h":"INDT1.png",
+          "D_T20pSseed9C68h":"MpT100.png",
+          "D_T20mSseed9C72h":"MmT100.png",
+          "D_T20iSseed9C200h":"INDT100.png",
+          "D_T20pSroot30C72h":"Mp72hatRoot.png",
+          "D_T20mSroot30C72h":"Mm72hatRoot.png",
+          "D_T20iSroot30C72h":"IND72hatRoot.png",
+          "D_T20pSroot30C240h":"Mp240hatRoot.png",
+          "D_T20mSroot30C240h":"Mm240hatRoot.png",
+          "D_T20iSroot30C240h":"IND240hatRoot.png",
+          "D_T20pSshoot30C72h":"Mp72hatShoot.png",
+          "D_T20mSshoot30C72h":"Mm72hatShoot.png",
+          "D_T20iSshoot30C72h":"IND72hatShoot.png",
+          "D_T20pSshoot30C240h":"Mp240hatShoot.png",
+          "D_T20mSshoot30C240h":"Mm240hatShoot.png",
+          "D_T20iSshoot30C240h":"IND240hatShoot.png"
+        }
+      
+    }
+}

@@ -1,3 +1,5 @@
+<div class="width900">
+  <br>
       <h4 style="font-size:26px">Welcome to <i>Ae. arabicum DB</i></h4>
 
       <h4 class="p_font18">
@@ -23,4 +25,5 @@
         a very interesting candidate for phylogenetic and evolutionary studies.
       </p>
       <img class='rounded' src='<?php echo "$images_path/main1.png";?>' width="900px" alt='img example'>
-      
+  <br>
+</div>
